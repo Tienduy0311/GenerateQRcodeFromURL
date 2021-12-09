@@ -7,17 +7,19 @@
 </head>
 <body>
     <div>
-        <div>
+        <div style="width: 190px; text-align: center;">
             <button id="generate">Generate-QR</button>
         </div>
         <hr>
-        <div id="viewQrCode"></div>
+        <div id="viewQrCode" style="text-align: center;"></div>
         <hr>
         <div>
+            <label for="to">To</label>
+            <input type="text" name="to" id="to" />
             <label for="subject">Subject</label>
             <input type="text" name="subject" id="subject" />
-            <label for="to">TO</label>
-            <input type="text" name="to" id="to" />
+        </div>
+        <div style="text-align: center; margin-top: 20px;">
             <button id="submit" style="margin: 0 auto;">Send Mail</button>
         </div>
     </div>
